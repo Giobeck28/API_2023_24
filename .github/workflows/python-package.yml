@@ -38,6 +38,3 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - name: Install dependencies 
-      run: |    
-        pip install --force-reinstall --no-deps bokeh==2.4.3
