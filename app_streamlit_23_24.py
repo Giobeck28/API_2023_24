@@ -71,7 +71,8 @@ image = Image.open('testlogo.png')
 st.sidebar.image(image, caption='ASSOCIATION DE POKER ISSEENNE')
 pages = ['', 'Evolution Présences', 'Distribution Présences API & GO','Distribution Présences Irish','Moyennes API & GO', 'Championat API & GO', ]
 pages_2 = ['', 'Evolution Présences', 'Distribution Présences API & GO','Moyennes API & GO', 'Championat API & GO', ]
-page = st.sidebar.radio("Menu", options = pages_2)
+pages_3 = ['', 'Evolution Présences', 'Distribution Présences API & GO', 'Championat API & GO', ]
+page = st.sidebar.radio("Menu", options = pages_3)
 #API_GO = Image.open('/Users/gio/Downloads/API&GO.jpg')
 API_GO = Image.open('API&GO.jpg')
     
