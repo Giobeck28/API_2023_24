@@ -5,6 +5,5 @@ matplotlib
 seaborn
 ipywidgets
 openpyxl
-PIL
 plotly
 itertools
