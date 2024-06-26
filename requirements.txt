@@ -6,3 +6,4 @@ seaborn
 ipywidgets
 openpyxl
 plotly
+bokeh
