@@ -1,12 +1,11 @@
 streamlit
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 seaborn
 ipywidgets
 openpyxl
 PIL
 time
-plotly.figure_factory
-matplotlib.ticker
+plotly
 itertools
