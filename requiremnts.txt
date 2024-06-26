@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+ipywidgets
+openpyxl
+PIL
+time
+plotly.figure_factory
+matplotlib.ticker
+itertools
