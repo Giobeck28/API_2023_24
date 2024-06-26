@@ -6,4 +6,3 @@ seaborn
 ipywidgets
 openpyxl
 plotly
-itertools
