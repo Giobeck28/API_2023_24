@@ -10,7 +10,8 @@ import matplotlib.ticker as mtick
 import itertools
 
 vacs =[7,14, 20, 27]
-file_name = '/Users/gio/Downloads/stats_2023_24.xlsm'
+#file_name = '/Users/gio/Downloads/stats_2023_24.xlsm'
+file_name = 'stats_2023_24.xlsm'
 nombre_manche_Y = 33
 nombre_manche_Q = 11
 nombre_manche_V = 5
@@ -65,13 +66,14 @@ total_score = df_score.cumsum(axis = 1)
 
 
 ## Sidebar
-image = Image.open('/Users/gio/Downloads/testlogo.png')
-#image = Image.open('/Users/gio/Downloads/test.jpg')
+#image = Image.open('/Users/gio/Downloads/testlogo.png')
+image = Image.open('testlogo.png')
 st.sidebar.image(image, caption='ASSOCIATION DE POKER ISSEENNE')
 pages = ['', 'Evolution Présences', 'Distribution Présences API & GO','Distribution Présences Irish','Moyennes API & GO', 'Championat API & GO', ]
 pages_2 = ['', 'Evolution Présences', 'Distribution Présences API & GO','Moyennes API & GO', 'Championat API & GO', ]
 page = st.sidebar.radio("Menu", options = pages_2)
-API_GO = Image.open('/Users/gio/Downloads/API&GO.jpg')
+#API_GO = Image.open('/Users/gio/Downloads/API&GO.jpg')
+API_GO = Image.open('API&GO.jpg')
     
 
 if page == pages[0]:
