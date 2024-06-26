@@ -448,7 +448,7 @@ if page == pages[4]:
     
     glyph = Circle (x="P", y="Moyenne",
                 fill_color = transform('Moyenne', color),
-                size = 15, fill_alpha = 0.5)
+                radius = 0.4, fill_alpha = 0.5)
     plot.add_glyph(source, glyph)
     xaxis = LinearAxis()
     plot.add_layout(xaxis, 'below')
