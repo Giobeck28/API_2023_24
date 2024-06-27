@@ -435,7 +435,7 @@ if page == pages[4]:
      min_border=0, toolbar_location="below")
 
     # Create a title object
-    title = Title(text="Moyennes vs. Présences", align="center", text_font_size="25pt",text_font="Helvetica Sans Serif")
+    title = Title(text="Moyennes vs. Présences", align="center", text_font_size="25pt",text_font="text_font="Arial body")
     # Add the title to the plot
     plot.title = title
 
