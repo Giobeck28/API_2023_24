@@ -20,7 +20,7 @@ sleep_presences_on_off = "off"
 #sleep_presences_on_off = "on"
 sleep_presences = 0.01
 sleep_vacances = 1
-sleep_ranking_start = 1
+sleep_ranking_start = 0.5
 sleep_ranking = 0.001
 
 
