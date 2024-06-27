@@ -418,7 +418,7 @@ if page == pages[4]:
     #lasso = LassoSelectTool()
   # title (ou of chart) 
     original_title = '<p style="font-family:Courier; color:Black; font-size: 50px;">Moyennes vs. Présences </p>'
-    st.markdown(original_title, unsafe_allow_html=True)
+    #st.markdown(original_title, unsafe_allow_html=True)
 
     from bokeh.plotting import figure
     from bokeh.models import ColumnDataSource, Grid, LinearAxis, Plot, Scatter, Circle
@@ -434,6 +434,10 @@ if page == pages[4]:
      title=None, width=400, height=500,
      min_border=0, toolbar_location="below")
 
+    # Create a title object
+    title = Title(text="Moyennes vs. Présences", align="center", text_font_size="25pt",text_font="Helvetica Sans Serif")
+    # Add the title to the plot
+    plot.title = title
 
     from bokeh.models import LinearColorMapper, ColorBar
     import matplotlib as mpl
