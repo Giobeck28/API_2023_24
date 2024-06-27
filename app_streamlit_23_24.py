@@ -421,7 +421,7 @@ if page == pages[4]:
     #st.markdown(original_title, unsafe_allow_html=True)
 
     from bokeh.plotting import figure
-    from bokeh.models import ColumnDataSource, Grid, LinearAxis, Plot, Scatter, Circle
+    from bokeh.models import ColumnDataSource, Grid, LinearAxis, Plot, Scatter, Circle, Title
     from bokeh.palettes import Magma, Inferno, Plasma, Viridis, Cividis, Oranges
     from bokeh.transform import transform
 
