@@ -437,7 +437,7 @@ if page == pages[4]:
 
     from bokeh.models import LinearColorMapper, ColorBar
     import matplotlib as mpl
-    import numpy as np
+    #import numpy as np
   
     #colors = ["#%02x%02x%02x" % (int(r), int(g), int(b)) for r, g, b, _ in 255*mpl.cm.viridis(mpl.colors.Normalize()(16))]
     
