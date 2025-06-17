@@ -11,7 +11,7 @@ import itertools
 
 vacs =[7,14, 20, 27]
 #file_name = '/Users/gio/Downloads/stats_2023_24.xlsm'
-file_name = 'stats_2024_25.xlsm'
+file_name = 'stats_2023_24.xlsm'
 nombre_manche_Y = 33
 nombre_manche_Q = 11
 nombre_manche_V = 5
